@@ -55,6 +55,8 @@ function checkResult() {
        var songExcellent = new Audio ('audio/sound-effect-applause-159315.mp3')
        songExcellent.play()
        document.getElementById("result").style.fontWeight = "600"
+       document.getElementById("result").style.color = "green"
+
 
         
   } else if ( studentScore > 100 && studentScore <= -0) {
